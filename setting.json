@@ -1,8 +1,8 @@
 {
-  "name-web":"BERITA TERKINI",
-  "author":"BERITA",
+  "name-web":"Germany Recipe",
+  "author":"recipe",
   "remove-comment-html":true,
-  "target":"https://m.tribunnews.com",
+  "target":"https://www.quick-german-recipes.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"m.tribunnews.com",
+      "target":"www.quick-german-recipes.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://m.tribunnews.com",
+          "target":"https://www.quick-german-recipes.com",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"m.tribunnews.com",
+      "target":"quick-german-recipes.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
